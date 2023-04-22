@@ -61,6 +61,15 @@ The larger this number is, the larger the correlation between the two factors is
 
 ### Inferential  (Build model.1)
 
+```{r}
+model.1 <- lm(SIMS~ARM,data=data)
+summary.lm(model.1)
+```
+
+  
+The equation for the line of this scenario is SIMS=0.054563 x ARM -4.095160.  Since the coeffecient is positive the line increases moving from the lower left corner to the upper right corner.  
+
+
 #### Predict at target point
 
 
