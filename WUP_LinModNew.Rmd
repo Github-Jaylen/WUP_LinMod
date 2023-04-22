@@ -72,6 +72,12 @@ The equation for the line of this scenario is SIMS=0.054563 x ARM -4.095160.  Si
 
 #### Predict at target point
 
+```{r}
+tgtpoint=data.frame(ARM=88, GRIP=94)
+predict(model.1, tgtpoint, interval = c("prediction"))
+```
+  
+The information presented here shows the predicted target plot is 0.7063836 95% of the time and that the value can range from -1.726209 to 3.138977.
 
 #### scatterplot with model fit
   
