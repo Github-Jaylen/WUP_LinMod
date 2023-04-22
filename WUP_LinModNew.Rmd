@@ -187,5 +187,7 @@ The data above signifies that model.3 was more accurate than model.1.  This show
 anova(model.2,model.3)
 ```
 
+The data above signifies that model.3 was more accurate than model.2.  This shows that if there were no differences between the two models, there would be a 0.000000001495% chance of this being the outcome. This data shows there was 145 degrees of freedom for model.2 and 144 for model.3.  In the residual sum of square values, there are 243.07 errors for model.2 and 188.43 errors for model.3, this information shows that the plots for Arm+Grip were more accurate by 54.639 points. 
+
 ## Informally compare Model.1 with model.2
 
