@@ -50,6 +50,14 @@ This data shows a simulation of the expectaions of the arm strength in the worke
 
 ### Numerical results
 
+```{r}
+cor(SIMS~ARM,data=data)
+```
+
+  
+The larger this number is, the larger the correlation between the two factors is.  From this data, it shows that there is a small correlation between the factors since the number is near 1. 
+
+
 
 ### Inferential  (Build model.1)
 
