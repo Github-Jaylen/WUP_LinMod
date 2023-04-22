@@ -103,6 +103,13 @@ basicGRIP + geom_point() + ggtitle("SIMS vs GRIP") + theme(plot.title = element_
 ### Numerical results 
 
 
+```{r}
+cor(SIMS~GRIP,data=data)
+```
+
+For Sims vs Grip we have a value of 0.6398458 however Sims vs. Arm the value was 0.6860073.  The value for Sims vs Arm is a higher value than Sims vs Grip making the correspondance slightly smaller in the correlation of data tables. 
+
+
 ### Inferential  (Build model.2)
   
 
