@@ -145,7 +145,11 @@ This plot provides the line of best fit which shows the most accurate data point
 
 ### Numerical results (cor)
 
-`
+```{r}
+cor(SIMS~ARM+GRIP,data=data)
+```
+  
+The value above says there is a 0.7326545 correlation betweens Sims vs Arm+Grip.  This is a higher value in comparison to Sims vs Arm and Sims vs Grip.  This provides a more accurate model when looking at both factors together vs comparing them individually.   
   
 ### Inferential  (Build 2-dimentional model.3)
 
