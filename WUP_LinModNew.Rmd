@@ -153,6 +153,14 @@ The value above says there is a 0.7326545 correlation betweens Sims vs Arm+Grip.
   
 ### Inferential  (Build 2-dimentional model.3)
 
+
+```{r}
+model.3 <- lm(SIMS~ARM + GRIP,data=data)
+summary.lm(model.3)
+``` 
+  
+The data provides an equation of SIMS= 0.03711 x ARM + 0.0o24470 x GRIP -5.433871 for the plane of best fit.
+
 #### predict model.3 at target point
   
 
