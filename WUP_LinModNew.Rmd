@@ -107,11 +107,22 @@ basicGRIP + geom_point() + ggtitle("SIMS vs GRIP") + theme(plot.title = element_
 cor(SIMS~GRIP,data=data)
 ```
 
-For Sims vs Grip we have a value of 0.6398458 however Sims vs. Arm the value was 0.6860073.  The value for Sims vs Arm is a higher value than Sims vs Grip making the correspondance slightly smaller in the correlation of data tables. 
+For Sims vs Grip we have a value of 0.6398458 however Sims vs. Arm the value was 0.6860073.  The value for Sims vs Arm is a higher value than Sims vs Grip making the correspondence slightly smaller in the correlation of data tables. 
 
 
 ### Inferential  (Build model.2)
   
+```{r}
+model.2 <- lm(SIMS~GRIP,data=data)
+summary.lm(model.2)
+```
+  
+  
+  
+The data above provides the equation SIMS= 0.045463x GRIP -4.809675 for the line of best fit.  With a positive coefficient the slope is positve moving from the bottom left corner to the upper right corner.  
+
+
+
 
 #### predict model.2 at target point
 
