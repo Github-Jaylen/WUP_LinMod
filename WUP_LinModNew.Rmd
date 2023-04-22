@@ -163,6 +163,14 @@ The data provides an equation of SIMS= 0.03711 x ARM + 0.0o24470 x GRIP -5.43387
 
 #### predict model.3 at target point
   
+```{r}
+predict(model.3, tgtpoint, interval = c("prediction"))
+```
+
+The table shows the best fit value for this scenario is 0.1496476 . however 95% of the time the value will be between 
+2.132373 and 2.431668.
+
+
 
 ## Comparing nested models ANOVA Test
 
