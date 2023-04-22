@@ -191,3 +191,10 @@ The data above signifies that model.3 was more accurate than model.2.  This show
 
 ## Informally compare Model.1 with model.2
 
+```{r}
+anova(model.1,model.2)
+```
+
+The data presented here shows that model.1 has a residual sum of squares of 217.88 and model.2 has a value of 243.07.  This is diference of -25.189 which shows that model.1 is more accurate when ocmparing Sims to Arm and Grip individuality.  
+
+
